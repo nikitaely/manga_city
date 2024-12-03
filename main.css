@@ -41,6 +41,12 @@ header nav a:hover {
     color: #ff6600; /* Цвет при наведении */
 }
 
+.club,
+.rating,
+.cards {
+    margin-right: 2px;
+}
+
 header input[type="text"] {
     background-image: url(search.png);
     background-repeat: no-repeat;
@@ -54,7 +60,14 @@ header input[type="text"] {
     height: 24px;
 }
 
+.center-panel {
+    display: flex;
+    align-items: center;
+}
 
+.logo {
+    margin-right: 23px;
+}
 
 .profile {
     display: flex;
